@@ -1,0 +1,64 @@
+body {
+    font-family: "Roboto", sans-serif
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    position: relative;
+}
+
+.card {
+    margin: 0 20px 20px 0;
+    border: solid 1.2pt;
+    border-color: #E2E2E2;
+    width: 300px;
+}
+
+img {
+    height: 205px;
+    background-size: cover;
+}
+
+.text-block {
+    margin: 0 25px 0 30px;
+    font-size: 15px;
+    color: #666666
+}
+
+p {
+    font-weight: bold;
+    color: #333333;
+}
+
+button {
+    width: 50px;
+    height: 40px;
+    background-color: #4ED17B;
+    border: 0;
+    float: right;
+}
+
+.fs-20 span.main-price {
+    font-size: 35px;
+    font-weight: bold;
+    color: #333333;
+}
+
+.fs-20 {
+    font-size: 20px;
+}
+
+.fs-20.mbt-30 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+i {
+    color: #FFFFFF;
+}
+
+
+
